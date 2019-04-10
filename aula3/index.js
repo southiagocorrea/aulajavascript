@@ -21,3 +21,27 @@ funcoes.editar(variaveis, '0', novaInf,(e, data) => {
     }
     console.log(data)
 })
+
+
+var novoProduto = {
+    nome: 'Batata Doce',
+    preco: '8.90'
+}
+
+funcoes.inserir(variaveis, novoProduto, (e, data) => {
+    if(!e){
+        console.log(data)
+        return
+    }
+    console.log(data)
+})
+
+
+
+funcoes.excluir(variaveis, '0', '2', (e, data) => {
+    if(!e){
+        console.log(data)
+        return
+    }
+    console.log(data)
+})
